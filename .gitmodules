@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/carthage_base_com"]
+	path = Carthage/Checkouts/carthage_base_com
+	url = git@github.com:ruiq/carthage_base_com.git

@@ -7,12 +7,13 @@
 //
 
 #import "UserManager.h"
+#import <TestBaseCOM/BaseCOM.h>
 
 @implementation UserManager
 
 +(void)login
 {
-    NSLog(@"logined");
+    [BaseCOM log:@"user did logined"];
 }
 
 @end
