@@ -1,1 +1,1 @@
-git "git@github.com:ruiq/carthage_base_com.git" "master"
+git "git@github.com:ruiq/carthage_base_com.git" >=0.1.0

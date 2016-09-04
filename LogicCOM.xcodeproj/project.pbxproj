@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E02CAEB11D7C1043007F05B6 /* TestBaseCOM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02CAEB01D7C1043007F05B6 /* TestBaseCOM.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		E03CE1781D7B1D3500C62EEF /* LogicCOM.h in Headers */ = {isa = PBXBuildFile; fileRef = E03CE1771D7B1D3500C62EEF /* LogicCOM.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E03CE1831D7B1D5D00C62EEF /* UserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E03CE1811D7B1D5D00C62EEF /* UserManager.h */; };
+		E03CE1831D7B1D5D00C62EEF /* UserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E03CE1811D7B1D5D00C62EEF /* UserManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E03CE1841D7B1D5D00C62EEF /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E03CE1821D7B1D5D00C62EEF /* UserManager.m */; };
 /* End PBXBuildFile section */
 
@@ -77,8 +77,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E03CE1781D7B1D3500C62EEF /* LogicCOM.h in Headers */,
 				E03CE1831D7B1D5D00C62EEF /* UserManager.h in Headers */,
+				E03CE1781D7B1D3500C62EEF /* LogicCOM.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 				E03CE16F1D7B1D3500C62EEF /* Sources */,
 				E03CE1701D7B1D3500C62EEF /* Frameworks */,
 				E03CE1711D7B1D3500C62EEF /* Headers */,
-				E03CE1721D7B1D3500C62EEF /* Resources */,
+				E02CAEB91D7C2A19007F05B6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -134,15 +134,21 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		E03CE1721D7B1D3500C62EEF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* Begin PBXShellScriptBuildPhase section */
+		E02CAEB91D7C2A19007F05B6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E03CE16F1D7B1D3500C62EEF /* Sources */ = {
